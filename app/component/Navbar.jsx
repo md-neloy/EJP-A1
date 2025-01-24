@@ -52,7 +52,7 @@ const Navbar = async () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{links}</ul>
         </div>
-        <div className="navbar-end gap-3">
+        <div className="navbar-end gap-4">
           {user ? (
             <>
               <LogoutLink className="mx-2 btn btn-primary">Log out</LogoutLink>
